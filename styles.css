@@ -1,0 +1,61 @@
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  margin-top: -10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+#QRCodeImage {
+  margin-top: -220px;
+}
+
+textarea::placeholder {
+  text-align: center;
+  font-size: 18px;
+  color: #999;
+  opacity: 1;
+}
+
+textarea {
+  width: 150%;
+  max-width: 500px;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid #536b0a;
+  border-radius: 10px;
+  resize: vertical;
+}
+
+button {
+  font: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  background: #536b0a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background: #1e3822;
+}

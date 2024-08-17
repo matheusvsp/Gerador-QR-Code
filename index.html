@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de QRCode</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Crie seu QRCode</h1>
+      <textarea
+        placeholder="Coloque o Link Aqui!"
+        maxlength="300"
+        rows="10"
+      ></textarea>
+      <br />
+      <button class="button-gerar" onclick="GerarQRCode()">Gerar QRCode</button>
+      <br />
+      <canvas id="qr-code"></canvas>
+      <br />
+      <div id="QRCodeImage"></div>
+      <button onclick="downloadQRCode('png')">Download em PNG</button>
+    </div>
+  </body>
+</html>

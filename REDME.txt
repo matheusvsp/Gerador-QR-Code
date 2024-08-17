@@ -1,0 +1,25 @@
+# Gerador de QR Code
+
+Este é um projeto simples de gerador de QR Code desenvolvido com HTML, CSS e JavaScript. O objetivo deste projeto é permitir que os usuários possam gerar QR Codes personalizados a partir de um link inserido.
+Projeto totalmente feito para pratica de lógica e conhecimento de bibliotecas
+
+## Funcionalidades
+
+- **Gerar QR Code**: Insira um link e clique no botão para gerar o QR Code correspondente.
+- **Download**: Baixe o QR Code gerado nos formatos PNG e SVG.
+
+## Tecnologias Utilizadas
+
+- **HTML5**: Estrutura do projeto.
+- **CSS3**: Estilização da interface.
+- **JavaScript**: Lógica de geração do QR Code.
+- **Bibliotecas**:
+  - [jQuery](https://jquery.com/)
+  - [jQuery QRCode Plugin](https://github.com/jeromeetienne/jquery-qrcode)
+  - [QRCode.js](https://github.com/davidshimjs/qrcodejs)
+
+## Como Usar
+
+1. Cole o link desejado no Input de Texto 
+2. Clica no botão "Gerar QRCode" 
+3. E clicar no botão de Download para baixar em PNG
